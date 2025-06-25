@@ -1,0 +1,19 @@
+{
+  "name": "image-3d-extruder",
+  "version": "1.0.0",
+  "description": "Upload an image, extrude it into 3D, color the sides, preview, and download the model.",
+  "private": true,
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "three": "^0.157.0",
+    "@react-three/fiber": "^8.0.0",
+    "@react-three/drei": "^9.0.0"
+  },
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
